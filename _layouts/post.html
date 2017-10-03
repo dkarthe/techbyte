@@ -21,6 +21,7 @@ layout: main
         <div class="page-tag">
           {% for tag in page.tags %}
             <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">&#35; {{ tag }}</a>
+          {% include post/related.html %}
           {% endfor %}
         </div>
       </div>
