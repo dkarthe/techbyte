@@ -26,11 +26,11 @@ twitter: gpaidapps # replace by your username
 facebook: u4i.me # replace by your username
 
 # Disqus
-disqus: False
+disqus: true
 disqus_name: ooioo # replace by your username
 
 # Google Analytics
-#google_analytics: UA-69281367-1 # replace by your GA id
+google_analytics: UA-110852994-1 # replace by your GA id
 
 # Permalinks
 permalink: /:title
