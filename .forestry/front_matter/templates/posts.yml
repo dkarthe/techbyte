@@ -1,0 +1,52 @@
+---
+pages:
+- _posts/2017-06-21-related-projects-and-data-tables.md
+- _posts/2017-06-06-third-party-scripts.md
+- _posts/2017-05-03-javascripten.md
+- _posts/2016-09-17-the-fast-one.md
+- _posts/2016-08-30-social-media-impocalypse.md
+- _posts/2015-09-26-sample-post-with-all-elements.md
+- _posts/2015-08-28-how-to-use-book.md
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: comment
+  label: Comment
+  type: boolean
+  hidden: false
+  default: true
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: post
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: excerpt_separator
+  label: Excerpt separator
+  type: text
+  hidden: false
+  default: ''
+- name: redirect_from
+  label: Redirect from
+  type: text
+  hidden: false
+  default: ''
